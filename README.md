@@ -1,18 +1,24 @@
-# 💻 Assignment Boilerplate
+# 💻 The Beatles Through the Eras
 
-A starting point for assignment and exercise repos. It includes submission instructions, editor and Git configuration,
-and a pull request template so every assignment works the same way.
+Starter files for an independent CSS layout assignment. The HTML for a three-page guide to
+**the Beatles** is already written, and `wireframes.pdf` shows how each page should be laid out
+on a phone and on a computer. You will write all of the CSS: Flexbox, CSS Grid, a mobile-first
+media query, and CSS variables. The colors, fonts, and overall look are up to you.
+
+There is no follow-along video for this assignment. You build it on your own, and a walkthrough
+video unlocks in Canvas after you submit. You have **two weeks**, so start in the first week.
 
 > [!NOTE]
 > `.editorconfig`, `.gitattributes`, `.gitignore`, `.noai`, and the `.github` and `.idea`
-> folders are setup files that keep assignments consistent. Leave them alone.
+> folders are setup files that keep assignments consistent. Leave them alone. The three `.html`
+> files, `css/styles.css`, the `images` folder, and `wireframes.pdf` are your starter files.
 
 ## 📋 Assignment Requirements
 
 > [!IMPORTANT]
 > **Start here: [read ASSIGNMENT.md →](.github/ASSIGNMENT.md)**
 
-It has the requirements, grading criteria, and due date. Read it before you start, and check it again before you submit.
+It has the overview, the requirements, the grading criteria, and a final checklist. Read it before you start, and check it again before you submit.
 
 ## ✅ At a Glance
 
@@ -22,17 +28,28 @@ Every assignment follows the same steps. Each guide has screenshots for every st
 |------|----------------------------------------------------------------------------|-----------------------------------------------|
 | 0    | **First assignment only:** install and set up WebStorm                     | [WebStorm Setup](.github/WEBSTORM_SETUP.md)   |
 | 1    | Create your repo from this template, clone it, and make a `develop` branch | [Getting Started](.github/GETTING_STARTED.md) |
-| 2    | Build your page in the root folder                                         | [Where Your Files Go](#-where-your-files-go)  |
+| 2    | Style all three pages in `css/styles.css` to match the wireframes          | [Where Your Files Go](#-where-your-files-go)  |
 | 3    | Commit and push often, then turn on GitHub Pages                           | [Publishing](.github/PUBLISHING.md)           |
 | 4    | Open a pull request into `main` and submit its URL in Canvas               | [Submitting](.github/SUBMITTING.md)           |
 
 ## 📂 Where Your Files Go
 
-Create your files in the **root folder** of this repo — the same folder as this README.
-GitHub Pages publishes from the root, so `index.html` has to live there or your site will 404. Group your assets into
-subfolders:
+This time the files are already named and in the right places. **Do not rename or move them**,
+because the pages, images, and stylesheet all link to each other by these exact names:
 
-<img src=".github/images/webstorm-project-files.png" alt="The WebStorm Project panel showing index.html in the root folder, with css/style.css, images/photo.jpg, and js/script.js in their own subfolders, all highlighted" width="350">
+```
+index.html
+eras.html
+albums/
+    index.html
+css/
+    styles.css
+images/
+wireframes.pdf
+```
+
+Write all of your CSS in `css/styles.css`. All three pages already link to it. Don't change the
+HTML, except to add Google Fonts `link` elements where each page's comment says to.
 
 ## 🤖 AI Policy
 
