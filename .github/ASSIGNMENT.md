@@ -119,13 +119,13 @@ or `.era aside`).
 
 | Criteria | What earns full credit | Points |
 | --- | --- | --- |
-| **Flexbox** | The header, nav, hero, and both rows of cards match the wireframes at both widths; cards wrap; spacing uses `gap`. | 14 |
-| **CSS Grid** | Each era uses `grid-template-areas` and matches the wireframes at both widths, with the image spanning two rows on wider screens; the album grid uses `repeat(auto-fit, minmax())`. | 14 |
-| **Mobile-first media query** | Base styles are for phones; at least one `min-width` query changes the layout; every page matches its wireframes and nothing scrolls sideways. | 14 |
-| **Design** | Readable fonts with fallbacks; a clear `rem` type scale; colors that pass contrast; consistent spacing; the current page shows in the nav. | 12 |
-| **CSS variables** | Colors, fonts, and spacing are custom properties on `:root`, used with `var()` throughout. | 8 |
-| **Published and submitted** | One shared stylesheet that passes the CSS validator; GitHub Pages site is live; pull request into `main` with the live URL; PR URL submitted in Canvas. | 3 |
-| **Total** |  | **65** |
+| **Flexbox** | The header, nav, hero, and both rows of cards match the wireframes at both widths; cards wrap; spacing uses `gap`. | 18 |
+| **CSS Grid** | Each era uses `grid-template-areas` and matches the wireframes at both widths, with the image spanning two rows on wider screens; the album grid uses `repeat(auto-fit, minmax())`. | 18 |
+| **Mobile-first media query** | Base styles are for phones; at least one `min-width` query changes the layout; every page matches its wireframes and nothing scrolls sideways. | 18 |
+| **Design** | Readable fonts with fallbacks; a clear `rem` type scale; colors that pass contrast; consistent spacing; the current page shows in the nav. | 16 |
+| **CSS variables** | Colors, fonts, and spacing are custom properties on `:root`, used with `var()` throughout. | 11 |
+| **Published and submitted** | One shared stylesheet that passes the CSS validator; GitHub Pages site is live; pull request into `main` with the live URL; PR URL submitted in Canvas. | 4 |
+| **Total** |  | **85** |
 
 ## 📚 Resources
 
